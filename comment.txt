@@ -1,0 +1,49 @@
+
+PS G:\Project\Full Stack Project\Resturent Food App> npm init   
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (resturent-food-app) food-app
+version: (1.0.0)
+description: food app with node and express
+entry point: (index.js) server.js
+test command:
+git repository:
+keywords:
+author: Paramita
+license: (ISC)
+About to write to G:\Project\Full Stack Project\Resturent Food App\package.json:
+
+{
+  "name": "food-app",
+  "version": "1.0.0",
+  "description": "food app with node and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paramita",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) y
+PS G:\Project\Full Stack Project\Resturent Food App> npm i express
+
+added 65 packages, and audited 66 packages in 11s
+
+found 0 vulnerabilities
+PS G:\Project\Full Stack Project\Resturent Food App> server.js
+ject\Resturent Food App> npm i colors morgan dotnev cors
+PS G:\Project\Full Stack Project\Resturent Food App> npm run server
+
+
+
+http://localhost:8080/api/v2/user/getUser?Authorization=Bearer     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmRkYzgyM2U4OGI3ZWJmNzc1MjdmMCIsImlhdCI6MTc3ODYzMTI5NSwiZXhwIjoxNzc5MjM2MDk1fQ.4D5Tn8KOgOdPqbJLVckjndDbpBRUdyXwgD1xD2LVFow"
